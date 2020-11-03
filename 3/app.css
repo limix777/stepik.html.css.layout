@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  }
+.conteiner-1{
+  display: flex;
+  justify-content: center;
+}
+.border1{
+  background: #007765;
+  width: 1219px;
+  position: fixed;
+  height: 84px;
+  border: 1px double black;
+  box-sizing: border-box;
+}
+.border0{
+  width: 1219px;
+  height: 84px;
+  border: 1px double black;
+  box-sizing: border-box;
+}
+.logo{
+  margin: 20px 56px;
+}
+.logo2{
+  float: right;
+  margin: 29px 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size:24px;
+  color: #FFFFFF;
+
+}
+.border2{
+  background-image: url(img/Jumbotron.png);
+  background-size: 100%;
+  width: 1219px;
+  height: 403px;
+  border: 1px double black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.head{
+  font-family: 'Roboto', sans-serif;
+  font-size:72px;
+  color: white;
+
+}
+.border3{
+  background: #EEEEEE;
+  height: 719px;
+  width: 1219px;
+  border: 1px double black;
+  box-sizing: border-box;
+
+}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+  text-decoration: none;
+}
+.TheProblemtitle{
+display: block;
+margin-block-start: 1.5em;
+margin-block-end: 0em;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
+.TheProblemtxt{
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 49px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+}
+.border4{
+  background-image: url(img/image.png);
+  background-size: 100%;
+  width: 1219px;
+  height: 483px;
+  border: 1px double black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.title4{
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+margin: 0 163px;
+}
+.border5{
+  background: #FFFFFF;
+  width: 1219px;
+  height: 625px;
+  border: 1px double black;
+  box-sizing: border-box;
+
+}
+.PPC_Logo{
+  float:left;
+  margin: -5px 20px 0 0;
+  width: 115px;
+  height: 115px;
+}
+.border6{
+  background: #EEEEEE;
+  width: 1219px;
+  min-height: 845px;
+  border: 1px double black;
+  box-sizing: border-box;
+}
+.team_box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team{
+  padding:20px 60px 0 60px;
+}
+.teamtxt1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.teamtxt2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+.border7{
+  background: #333333;
+  width: 1219px;
+  height: 176px;
+  border: 1px double black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.title7{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 0 25%;
+}

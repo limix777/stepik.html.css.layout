@@ -1,0 +1,21 @@
+.divess {
+  margin: 0px 250px  ;
+  width: 800px;
+}
+h1,h2,h3 {
+  font-family: sans-serif;
+  margin: 0px 0px 20px 00px
+}
+h1 {
+  font-size: 32px;
+}
+table,td,th,tr {
+    border: 1px solid black; /* Параметры рамки */
+   }
+.italic {
+  font-style: italic;
+}
+.sss {
+  float: right;
+margin: -15px 50px 0px 20px
+  }
