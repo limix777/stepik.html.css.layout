@@ -1,20 +1,22 @@
 body {
   margin: 0;
-  }
-.conteiner-1{
-  display: flex;
-  justify-content: center;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: paleturquoise;
 }
 .border1{
   background: #007765;
-  width: 1219px;
+  width: 100%;
   position: fixed;
   height: 84px;
   border: 1px double black;
   box-sizing: border-box;
 }
 .border0{
-  width: 1219px;
+  width: 100%;
   height: 84px;
   border: 1px double black;
   box-sizing: border-box;
@@ -33,7 +35,7 @@ body {
 .border2{
   background-image: url(img/Jumbotron.png);
   background-size: 100%;
-  width: 1219px;
+  width: 100%;
   height: 403px;
   border: 1px double black;
   box-sizing: border-box;
@@ -50,13 +52,12 @@ body {
 .border3{
   background: #EEEEEE;
   height: 719px;
-  width: 1219px;
+  width: 100%;
   border: 1px double black;
   box-sizing: border-box;
 
 }
 p {
-    display: block;
     margin-block-start: 0;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -78,7 +79,7 @@ text-align: center;
 color: #007765;
 }
 .TheProblemtxt{
-  display: block;
+  display: flex;
   font-family: 'Roboto', sans-serif;
   margin: 0 49px;
   font-style: normal;
@@ -86,10 +87,13 @@ color: #007765;
   font-size: 32px;
   line-height: 37px;
 }
+.TheProblemtxt_auto{
+  margin: 0 auto;
+}
 .border4{
   background-image: url(img/image.png);
   background-size: 100%;
-  width: 1219px;
+  width: 100%;
   height: 483px;
   border: 1px double black;
   box-sizing: border-box;
@@ -109,21 +113,24 @@ margin: 0 163px;
 }
 .border5{
   background: #FFFFFF;
-  width: 1219px;
+  width: 100%;
   height: 625px;
   border: 1px double black;
   box-sizing: border-box;
 
 }
+.TheProblemtxt-auto{
+  margin: 0 auto;
+}
 .PPC_Logo{
   float:left;
-  margin: -5px 20px 0 0;
+  margin: -1.5% 20px 0 0;
   width: 115px;
   height: 115px;
 }
 .border6{
   background: #EEEEEE;
-  width: 1219px;
+  width: 100%;
   min-height: 845px;
   border: 1px double black;
   box-sizing: border-box;
@@ -155,14 +162,14 @@ margin: 0 163px;
 }
 .border7{
   background: #333333;
-  width: 1219px;
+  width: 100%;
   height: 176px;
   border: 1px double black;
   box-sizing: border-box;
   display: flex;
   align-items: center;
 }
-.title7{
+.title7 > p{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -170,4 +177,7 @@ margin: 0 163px;
   line-height: 21px;
   text-align: center;
   margin: 0 25%;
+}
+.title7 {
+  margin: 0 auto;
 }
